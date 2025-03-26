@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Greed Condensed';
+  src: url('./assets/fonts/GreedCondensed-TRIAL-Regular.woff2') format('woff2'),
+  url('./assets/fonts/GreedCondensed-TRIAL-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greed Condensed';
+  src: url('./assets/fonts/GreedCondensed-TRIAL-Bold.woff2') format('woff2'),
+  url('./assets/fonts/GreedCondensed-TRIAL-Bold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Greed Condensed';
+  src: url('./assets/fonts/GreedCondensed-TRIAL-BoldItalic.woff2') format('woff2'),
+  url('./assets/fonts/GreedCondensed-TRIAL-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Greed Condensed';
+  src: url('./assets/fonts/GreedCondensed-TRIAL-SemiBold.woff2') format('woff2'),
+  url('./assets/fonts/GreedCondensed-TRIAL-SemiBold.woff') format('woff');
+  font-weight: 700;
+}
+
+
+body {
+  font-family: 'Greed Condensed', sans-serif;
+}
+
+h1 {
+  font-family: 'Greed Condensed';
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
